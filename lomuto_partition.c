@@ -8,7 +8,7 @@
  * @size: the size/length of array
  * Return: final partition index
  */
-int lomuto_partion(int *array, int start_index, int end_index, size_t size)
+int lomuto_partition(int *array, int start_index, int end_index, size_t size)
 {
 	int i = 0, j = 0, pivot = 0, aux = 0;
 
