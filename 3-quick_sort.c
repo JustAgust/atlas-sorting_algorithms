@@ -14,7 +14,7 @@ void quicksort(int *array, int start_index, int end_index, size_t size)
 	if (start_index >= end_index || start_index < 0)
 	return;
 
-	p = lomuto_partion(array, start_index, end_index, size);
+	p = lomuto_partition(array, start_index, end_index, size);
 	quicksort(array, start_index, p - 1, size);
 	quicksort(array, p + 1, end_index, size);
 }
