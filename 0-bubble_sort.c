@@ -4,16 +4,16 @@
  * @array: Array to be sorted
  * @size: Array size
  * Return: void
-*/
+ */
 void bubble_sort(int *array, size_t size)
 {
 	int temp = 0;
 	size_t count, i = 0;
 
 	if (size < 2)
-	return;
+		return;
 
-	while (size -1 -i)
+	while (size - 1 - i)
 	{
 		for (count = 0; count <size - 1 - i; count++)
 		{
