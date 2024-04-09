@@ -21,7 +21,7 @@ int lomuto_partition(int *array, int start_index, int end_index, size_t size)
 		{
 			aux = array[i];
 			array[i] = array[j];
-			array[j] =aux;
+			array[j] = aux;
 
 			if (aux != array[i])
 				print_array(array, size);
@@ -32,7 +32,7 @@ int lomuto_partition(int *array, int start_index, int end_index, size_t size)
 	array[i] = array[end_index];
 	array[end_index] = aux;
 
-	if ( aux != array[i])
+	if (aux != array[i])
 		print_array(array, size);
 	return (i);
 }
